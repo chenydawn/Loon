@@ -16,7 +16,7 @@ DOMAIN, api.miwifi.com, DIRECT
 
 [Script]
 # 移除MIWiFi升级提示
-^https:\/\/api\.miwifi\.com\/s\/upgrade reject
+^https:\/\/api\.miwifi\.com\/s\/upgrade reject-dict
 
 [MitM]
 hostname = api.miwifi.com
