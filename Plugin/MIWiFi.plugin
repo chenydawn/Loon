@@ -10,12 +10,9 @@
 #!icon = https://github.com/chenydawn/Loon/raw/main/Img/MIWiFi.png
 #!date = 2024-09-16 17:20:29
 
-[Rule]
-DOMAIN, api.miwifi.com, REJECT
-
 [Rewrite]
 # 移除MIWiFi升级提示
-^https:\/\/api\.miwifi\.com\/s\/upgrade reject
+^https:\/\/api\.miwifi\.com\/s\/upgrade reject-200
 
 [MitM]
 hostname = api.miwifi.com
